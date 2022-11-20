@@ -2,23 +2,26 @@
 <html>
    <head>
       <title>Popular places I've visited</title>
+      <link rel="stylesheet" href="normalize.css">
+      <link rel="stylesheet" href="styles.css">
+
    </head>
    <body>
       <!-- Write your HTML in this file! -->
       <main>
-         <h1>Popular places I've visited</h1>
+         <h1 id="mainHeading">Popular places I've visited</h1>
          <ol>
-            <li>Taj Mahal</li>
-            <li>Bhedaghat</li>
-            <li>Niagara Falls</li>
-            <li>Disney World</li>
-            <li>Statue of Liberty</li>
-            <li>Empire State Building</li>
+            <li><a href="#tajmahal">Taj Mahal</a></li>
+            <li><a href="#bhedaghat">Bhedaghat</a></li>
+            <li><a href="#niagara">Niagara Falls</a></li>
+            <li><a href="#disney">Disney World</a></li>
+            <li><a href="#statueOfLiberty">Statue of Liberty</a></li>
+            <li><a href="#empireState">Empire State Building</a></li>
          </ol>
          <h2>And some that I want to go to!</h2>
          <ol>
-            <li>Antelope Canyon</li>
-            <li>Fairbanks Alaska</li>
+            <li><a href= "#canyon">Antelope Canyon</a></li>
+            <li><a href = "#alaska">Fairbanks Alaska</a></li>
          </ol>
 
          <header>
@@ -26,19 +29,21 @@
          </header>
 
          <article>
-            <h1>Taj Mahal</h1>
+            <a name = "tajmahal"></a>
+            <h3>Taj Mahal</h3>
             <details>
                <summary>Click here to learn more about Taj Mahal</summary>
                <p>The Taj Mahal is located on the right bank of the Yamuna River in a vast Mughal garden 
                   that encompasses nearly 17 hectares, in the Agra District in Uttar Pradesh. It was built by Mughal Emperor Shah Jahan in memory of his wife Mumtaz Mahal with construction starting in 1632 AD and completed in 1648 AD. It is most famous for being made out of white marble (which makes it a sight to behold on a moonlit night) with intricate carvings and being bejweled with preciuos and semi preciuos stones.
                </p>
             </details>
-            
+
             <img src="images/tajmahal.jpeg" alt="Taj Mahal">
          </article>
 
          <article>
-            <h1>Bhedaghat</h1>
+            <a name = "bhedaghat"></a>
+            <h3>Bhedaghat</h3>
             <details>
                <summary>Click here to learn more about Bhedaghat</summary>
                <p>A place synonymous to the Great Canyon in the USA, Bhedaghat in Jabalpur 
@@ -52,7 +57,8 @@
          </article>
 
          <article>
-            <h1>Niagara Falls</h1>
+            <a name = "niagara"></a>
+            <h3>Niagara Falls</h3>
             <details>
                <summary>Click here to learn more about Niagara Falls</summary>
                <p>Niagara Falls is a group of three waterfalls at the southern end of Niagara Gorge, spanning the border between the province of Ontario in Canada and the state of New York in the United States. The largest of the three is Horseshoe Falls, which straddles the international border of the two countries.<br>[1] It is also known as the Canadian Falls.<br>[2] The smaller American Falls and Bridal Veil Falls lie within the United States. <br> Veil Falls is separated from Horseshoe Falls by Goat Island and from American Falls by Luna Island, with both islands situated in New York.</p>
@@ -62,7 +68,8 @@
          </article>
 
          <article>
-            <h1>Disney World</h1>
+            <a name = "disney"></a>
+            <h3>Disney World</h3>
             <details>
                <summary>Click here to learn more about Disney World</summary>
                <p>The Walt Disney World Resort, also called Walt Disney World or Disney World, is an entertainment resort complex in Bay Lake and Lake Buena Vista, Florida, United States.The resort comprises four theme parks (Magic Kingdom, Epcot, Disney's Hollywood Studios, and Disney's Animal Kingdom), two water parks (Disney's Blizzard Beach and Disney's Typhoon Lagoon), 31 themed resort hotels, nine non-Disney hotels, several golf courses, a camping resort, and other entertainment venues, including the outdoor shopping center Disney Springs.In 2018, Walt Disney World was the most visited vacation resort in the world, with an average annual attendance of more than 58 million
@@ -73,7 +80,8 @@
          </article>
 
          <article>
-            <h1>Statue of Liberty</h1>
+            <a name = "statueOfLiberty"></a>
+            <h3>Statue of Liberty</h3>
             <details>
                <summary>Click here to learn more about Statue of Liberty</summary>
                <p>The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in the United States. The copper statue, a gift from the people of France, was designed by French sculptor Frédéric Auguste Bartholdi and its metal framework was built by Gustave Eiffel. The statue was dedicated on October 28, 1886.
@@ -84,7 +92,8 @@
          </article>
 
          <article>
-            <h1>Empire State Building</h1>
+            <a name = "empireState"></a>
+            <h3>Empire State Building</h3>
             <details>
                <summary>Click here to learn more about Empire State Building</summary>
                <p>The Empire State Building is a 102-story Art Deco skyscraper in Midtown Manhattan, New York City. The building was designed by Shreve, Lamb & Harmon and built from 1930 to 1931. Its name is derived from "Empire State", the nickname of the state of New York.The Empire State Building is an international cultural icon: it has been featured in more than 250 television series and films since the film King Kong was released in 1933. The building's size has become the global standard of reference to describe the height and length of other structures. A symbol of New York City, the building has been named as one of the Seven Wonders of the Modern World by the American Society of Civil Engineers.
@@ -97,27 +106,25 @@
       </main>
 
       <section>
-         <p>List of places I want to travel to hopefully next year. As someone has famously said:</p>
-         <img src="images/travel quote.webp">
-         <details>
-            <summary>Antelope Canyon</summary>
-            <img src="images/antelope canyon.jpeg" alt="antelope canyon">
-            <p>Navajo Upper Antelope Canyon is a slot canyon in the American Southwest, on Navajo land east of Lechee, Arizona. Antelope Canyon was formed by the erosion of Navajo Sandstone due to flash flooding and other sub-aerial processes. Over time the passageways eroded away, deepening the corridors and smoothing hard edges to form characteristic "flowing" shapes.</p>
-         </details>
-
-         <details>
-            <summary>Fairbanks Alaska</summary>
-            <img src="images/northern lights.jpeg" alt="Fairbanks Alaska">
-            <p>Fairbanks is a home rule city and the borough seat of the Fairbanks North Star Borough in the U.S. state of Alaska. Fairbanks is the largest and coldest city in the Interior region of Alaska and the second largest in the state. It is one of the places that one can watch the northern lights.</p>
-         </details>
+         <figcaption>As someone has famously said:</figcaption>
+         <img src="images/travel quote.webp" id="fig">
+      </section>
+      
+      <section>
+         <h2>Places i want to visit next year:</h2>
+         <a name = "canyon"></a>
+         <p>Antelope Canyon<br><br><span>Navajo Upper Antelope Canyon is a slot canyon in the American Southwest, on Navajo land east of Lechee, Arizona. Antelope Canyon was formed by the erosion of Navajo Sandstone due to flash flooding and other sub-aerial processes. Over time the passageways eroded away, deepening the corridors and smoothing hard edges to form characteristic "flowing" shapes.</span></p>    
+         <img src="images/antelope canyon.jpeg" alt="Picture of the canyon">
          
+         <a name = "alaska"></a>
+         <p>Fairbanks Alaska<br><br><span>Fairbanks is a home rule city and the borough seat of the Fairbanks North Star Borough in the U.S. state of Alaska. Fairbanks is the largest and coldest city in the Interior region of Alaska and the second largest in the state. It is one of the places that one can watch the northern lights.</span></p>    
+         <img src="images/northern lights.jpeg" alt="Picture of northern lights">
       </section>
 
       <footer>
          <p>Author: Shweta Shrivastava<br>
          <a href="mailto:shweta@example.com">shweta@example.com</a>
          &copy;
-         </p>
        </footer>
 
    </body>

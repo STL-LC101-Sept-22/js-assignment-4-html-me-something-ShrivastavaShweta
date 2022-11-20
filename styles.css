@@ -1,1 +1,85 @@
 /* Write your CSS here! */
+#mainHeading , h2 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: rgba(7, 7, 71, 0.415);
+}
+
+h3 {
+    text-align: center;
+}
+
+ol {
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 0%;
+}
+
+a {
+    color:black;
+    text-decoration: solid;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+header {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 30px;
+    margin-left: 20px;
+    font-weight: 800;
+    font-style: oblique;
+    color: darkolivegreen;
+    text-align: center;
+    font-size: large;
+}
+
+img {
+    width: 50%;
+    max-width: 50%;
+    height: 400px;
+    margin-left: 25%;
+    margin-bottom: 120px;
+    
+}
+
+
+summary {
+    text-align: center;
+    font-size: large;
+    font-weight: 300;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 255, 0.72);
+}
+
+p {
+    text-align: center;
+    padding: 25px;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+}
+
+#fig {
+    height: 665px;
+    margin-bottom: 20px;
+}
+
+
+
+section p{
+    text-align: left;
+    font-size: larger;
+    font-style: oblique;
+}
+
+section p span {
+    color: blue;
+    text-align: left;
+}
+
+
